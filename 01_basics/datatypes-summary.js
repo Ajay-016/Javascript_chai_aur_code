@@ -46,3 +46,31 @@ console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// *******************************************************************************
+
+
+// Stack memory is used for (Primitive Data Types) , Heap memory is used for (Non- Primitive Data Types).
+
+let myYoutubeName = "ajay123"
+
+let anothername = myYoutubeName
+anothername = "hellofolks"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ajay@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
